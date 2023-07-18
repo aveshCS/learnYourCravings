@@ -1,5 +1,5 @@
 import {FaHamburger,FaPizzaSlice,} from 'react-icons/fa'
-import {GiChopsticks,GiNoodles, GiIndianPalace} from 'react-icons/gi'
+import {GiChopsticks,GiNoodles, GiIndianPalace, GiFrenchFries} from 'react-icons/gi'
 import { styled } from "styled-components";
 import {NavLink} from 'react-router-dom'
 const Category = () => {
@@ -24,6 +24,10 @@ const Category = () => {
         <Slink to={'/cuisine/japanese'}>
             <GiChopsticks/>
             <h4>Japanese</h4>
+        </Slink>
+        <Slink to={'/cuisine/french'}>
+            <GiFrenchFries/>
+            <h4>French</h4>
         </Slink>
     </List>
   )
